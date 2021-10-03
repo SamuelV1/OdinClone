@@ -1,0 +1,232 @@
+:root {
+  --main: rgb(206, 151, 62);
+  --secondary: rgba(74,74,74,0.7);
+  --main-hover: #d4a866;
+  --font: "Open Sans";
+  --buttonColor: rgb(106, 191, 195);
+  --button-hover: #87cbce;
+  --extra-color1: #ffffff;
+  --extra-color2: #f3f3f3;
+  /* Custom proportion*/
+  --Custom-padding: 5.2em;
+  --Custom-margin: 18px;
+}
+.ColorP{
+  color: var(--main);
+}
+.ColorS{
+  color: var(--secondary);
+}
+.Font{
+  font: var(--font);
+}
+
+.Reset{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.Flex{
+display: flex;
+}
+
+.Flex.Centered{
+justify-content: center;
+align-items: center !important;
+}
+.Flex.Down{
+  flex-direction: column;
+}
+
+.Title{
+  color: var(--main);
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  padding-bottom: 1.875rem;
+  font-family: var(--font);
+}
+.Description{
+  color: var(--secondary);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  margin: 0;
+  line-height: 1.88;
+  font-family: var(--font);
+  margin-bottom: 1em;
+}
+
+
+.Subtitle{
+  font-size: 1.5rem;
+  letter-spacing: 0.2px;
+}
+
+.Bold{
+  font-weight: 700;
+}
+.Container{
+  font: var(--font);
+  width: 100%;
+}
+/*Small Container*/
+.SContainer{
+  box-shadow: 0 7px 16px 0 rgba(0,0,0,0.05);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 0 30px 30px 0;
+  max-width: 254px;
+  padding: 23px 46px 25px;
+  text-align: center;
+  width: 177px;
+  text-decoration: none;
+  align-items: center;
+}
+.Logo{
+  height: 160px;
+  width: 160px;
+}
+/* Link and Link secondary*/
+.Link{
+  font: var(--font);
+  color: var(--main);
+}
+.Link:hover{
+  color: var(--main-hover);
+}
+.Button{
+
+  background-color: var(--buttonColor);
+  margin-top: 1em;
+  border-radius: 0.2em;
+box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+color: #fff;
+display: inline-block;
+font-size: 1em;
+font-weight: bold;
+letter-spacing: 0.2px;
+padding: 1rem 3.5rem;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+border: none;
+}
+.Button:hover{
+  filter: brightness(0.9);
+}
+/* Butotn with main color*/
+.MButton{
+  background-color: var(--main);
+  margin-top: 1em;
+  border-radius: 0.2em;
+box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+color: #fff;
+display: inline-block;
+font-size: 1em;
+font-weight: bold;
+letter-spacing: 0.2px;
+padding: 1rem 3.5rem;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+border: none;
+}
+.MButton:hover{
+  filter: brightness(0.9);
+}
+
+/*Background Color*/
+
+.Bg-Primary{
+  background-color: var(--main);
+}
+.Bg-Secondary{
+background-color: var(--secondary);
+}
+.Bg-Extra1{
+background-color: var(--extra-color1);
+}
+.Bg-Extra2{
+  background-color: var(--extra-color2);
+}
+
+/* Stupid time*/
+.M1{
+  margin: 1em;
+}
+.M1-top{
+  margin-top: 1em;
+}
+.M1-bottom{
+  margin-bottom: 1em;
+}
+.M1-right{
+  margin-right: 1em;
+}
+.M1-left{
+  margin-left: 1em;
+}
+/*Custom margin*/
+.Mc{
+margin: var(--Custom-padding);
+}
+.Mc-top{
+  margin-top: var(--Custom-padding);
+}
+.Mc-bottom{
+  margin-bottom: var(--Custom-padding);
+}
+.Mc-right{
+  margin-right: var(--Custom-padding);
+}
+.Mc-left{
+  margin-left: var(--Custom-padding);
+}
+
+.M2{
+  margin: 2em;
+}
+.M2-top{
+  margin-top: 2em;
+}
+.M2-bottom{
+  margin-bottom: 2em;
+}
+.M2-right{
+  margin-right: 2em;
+}
+.M2-left{
+  margin-left: 2em;
+}
+
+.Fwrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.onhundred{
+  width: 76em;
+  justify-content: center;
+}
+/* Font Color*/
+
+.Fc-M{
+  color: var(--main);
+}
+.Fc-S{
+  color: var(--secondary)
+}
+/* font color - custom 1*/
+.Fc-C1{
+  color: var(--extra-color1);
+}
+.Fc-C2{
+  color: var(--extra-color2);
+}
+.Gap{
+  gap: 1em;
+}
